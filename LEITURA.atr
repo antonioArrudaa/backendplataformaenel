@@ -1,0 +1,32 @@
+instalações necessarias:
+npm init -y
+npm install nodemon
+npm install express
+npm install knex
+npm install sqlite3
+npm install cors
+npm install axios
+npm install jsonwebtoken
+
+
+Frontend:
+npx create-react-app nome-do-projeto
+npm install react-icons
+npm install react-router-dom
+
+
+inicializações:
+pra iniciar o banco de dados npx knex init
+
+
+Criando uma migrations com knex:
+npx knex migrate:make nome do banco
+
+Adiciona uma coluna
+knex migrate:make add_nomedacoluna_to_nomedatabela
+
+Verificando status knex:
+npx knex migrate:status -> assim que contruir a tabela, da um status e depois um latest
+npx knex migrate:latest
+
+
